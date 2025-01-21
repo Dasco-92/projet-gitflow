@@ -1,0 +1,29 @@
+
+Création et mise en ligne d'un repository
+------------
+Creation des fichiers de base pour un projet et ouvrir le terminal dans le dossier 
+1. git init
+2. Premier commit = initial commit
+	-git status
+	-git add 'fichier'
+	-git commit -m ""
+3.Creation du repo en ligne sur git hub
+4. Ajouter ce que git propose pour connecter 
+git remote add origin https://github.com/Dasco-92/projet-gitflow.git
+5. Envoi sur le repo
+	git push origin master (faire une seule fois car après l'initialisation c'est interdit)
+-----------------
+
+Codage
+-----------------
+1. git status
+2. git diff *sert a voir le code changé dans le terminal*
+3. Nouvelle branche = git checkout -b (-nom branche mais sans espace) par exemple -b FEAT-homepage_banner
+On code
+4. git add/git commit
+5. git push origin nom-de-la-branche
+6. Pull request sur git hub
+7. Merge request sur git hub
+8. git checkout master
+9. git pull origin master
+----------------
