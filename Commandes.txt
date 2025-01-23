@@ -9,25 +9,18 @@ Creation des fichiers de base pour un projet et ouvrir le terminal dans le dossi
 	-git commit -m ""
 3.Creation du repo en ligne sur git hub
 4. Ajouter ce que git propose pour connecter 
-git remote add origin https://github.com/Dasco-92/projet-gitflow.git
+	git remote add origin https://github.com/Dasco-92/projet-gitflow.git
 5. Envoi sur le repo
 	git push origin master (faire une seule fois car après l'initialisation c'est interdit)
 -----------------
 
-Codage
+Après la création du repo quand on code
 -----------------
 1. git status
 2. git diff *sert a voir le code changé dans le terminal*
 3. Nouvelle branche = git checkout -b (-nom branche mais sans espace) par exemple -b FEAT-homepage_banner
 On code
-4. git add
-5. git commit
-6. git push origin nom-de-la-branche
-7. Pull request sur git hub
-8. Merge request sur git hub
-9. git checkout master
-10. git pull origin master
-4. git add
+4. git add .
 5. git commit
 6. git push origin nom-de-la-branche
 7. Pull request sur git hub
@@ -38,8 +31,36 @@ On code
 
 Pour les conflits
 -----------------------
-1. git pull (ya un conflit)
-2. on choisi la modification a garder sur VS Code
-3. on va sur la branche avec le conflit 
+1. git checkout master
+2. git pull origin master
+3. git checkout nom-branche
 4. git merge master
-5. 
+5. Résolution du conflit
+	-Discuter avec les collègues
+	-faire preuve de bon sens
+	-choisir les modifications sur VS Code
+6. git add ./git commit/git push
+------------------------
+
+Travailler avec git en équipe ou seul
+------------------------
+Projet/idée
+1. Cahier des charges
+	-User stories (prendre le role d'un client pour visionner les fonctionnalités du site)
+	-Flow chart
+	-Maquette Ui/Mock up
+2. Création des taches et répartition
+------------------------
+
+Pour cloner un repo
+---------------------
+1. git clone le https
+2. cd nom_du_projet
+3. git checkout -b NOM-nom-de-la-branche
+On code
+4. git add . et git commit -m --> Le + possible sans en abuser et en étant logique
+5. Pull request et gestion conflits
+6. Code review et discussion
+Retour on code
+7. Merge mais pas nous même 
+----------------------
