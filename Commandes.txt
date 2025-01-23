@@ -27,6 +27,13 @@ On code
 8. Merge request sur git hub
 9. git checkout master
 10. git pull origin master
+4. git add
+5. git commit
+6. git push origin nom-de-la-branche
+7. Pull request sur git hub
+8. Merge request sur git hub
+9. git checkout master
+10. git pull origin master
 ----------------
 
 Pour les conflits
